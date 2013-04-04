@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="curdadgroup" storage="e:\afpsourcecode\trunk\src_test\afptest\google.uitest\curdadgroup.orderedtest" id="478a3baf-ebcd-4b19-85c9-4ab324c04697" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="e793f90b-1eb9-40df-ade4-7f15ef7f8d27" />
+  <TestLinks>
+    <TestLink id="ca963345-7772-6391-bd35-c54adfa73ce8" name="AddAdGroup_Google" storage="bin\release\google.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="e159f175-c176-0d9d-b3e5-f878979d0b56" name="GetAdGroup_Google" storage="bin\release\google.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="0d768e4a-a7b7-66f5-58b7-1568f5813730" name="EditAdGroup_Google" storage="bin\release\google.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="71b8fe0b-da0a-b568-e19b-7b08e3723d71" name="DeleteAdGroup_Google" storage="bin\release\google.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

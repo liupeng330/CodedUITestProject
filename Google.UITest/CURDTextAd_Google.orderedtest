@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="curdtextad" storage="e:\afpsourcecode\trunk\src_test\afptest\google.uitest\curdtextad.orderedtest" id="71d71cee-952b-4437-915f-0a929cfcac0e" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="2767bf8d-0194-4146-b174-4f7eeba83a28" />
+  <TestLinks>
+    <TestLink id="67a686cd-036a-da6d-cc21-eeae38e8ed07" name="AddTextAd_Google" storage="bin\release\google.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="93b5e290-04c9-0826-80cc-c7797ff8d7a5" name="GetTextAd_Google" storage="bin\release\google.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="600f7249-c872-66e2-53d2-b7a83b95016d" name="EditTextAd_Google" storage="bin\release\google.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="eb56cd3a-150d-e266-112c-24bde2ce8256" name="DeleteTextAd_Google" storage="bin\release\google.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

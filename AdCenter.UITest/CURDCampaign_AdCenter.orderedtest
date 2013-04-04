@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="CURDCampaign" storage="e:\afpsourcecode\trunk\src_test\afptest\adcenter.uitest\curdcampaign.orderedtest" id="6eb4bb71-cc22-4c78-8e60-f45378954d02" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="fc8420eb-3ee6-4138-8c0f-31414695dcba" />
+  <TestLinks>
+    <TestLink id="f6e9a958-424b-7951-eee5-8c297e85a7ce" name="AddCampaign_AdCenter" storage="..\testbits\adcenter.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="ec864b5f-08e5-d446-c447-18b9a9a037fd" name="GetCampaign_AdCenter" storage="..\testbits\adcenter.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="f4850378-c7bd-2419-c85d-c89c1c07f56d" name="EditCampaign_AdCenter" storage="..\testbits\adcenter.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="deaeb59b-945e-fc8b-fe5e-b302f90b19cf" name="DeleteCampaign_AdCenter" storage="..\testbits\adcenter.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

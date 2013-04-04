@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="curdkeyword" storage="e:\afp\adsage.concert\trunk\src_test\afptest\adcenter.uitest\curdkeyword.orderedtest" id="f43f073b-e141-44f4-907e-3d7d089865a9" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="88e8dda8-7c37-5e39-4a9e-d3645a8c2dde" name="AddKeyword_Adcenter" storage="..\testbits\adcenter.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="5b47d771-e6a8-9212-3f0d-895f47639ed3" name="GetKeyword_AdCenter" storage="..\testbits\adcenter.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="81385001-021a-3505-bf59-41789b010f51" name="EditKeyword_AdCenter" storage="..\testbits\adcenter.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="e1527aa6-87c3-2b5b-ed8b-9d055acbf21a" name="DeleteKeyword_Adcenter" storage="..\testbits\adcenter.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

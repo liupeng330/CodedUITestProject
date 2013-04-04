@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="CURDTextAd" storage="e:\afpsourcecode\trunk\src_test\afptest\adcenter.uitest\curdtextad.orderedtest" id="952f386b-f4ec-4073-921f-5ecd06ad96d3" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="9b95e43b-18ab-f15f-bde2-360e8da3a519" name="AddTextAd_AdCenter" storage="..\testbits\adcenter.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="f0f32234-32a9-ba62-0d4f-56bf0103499d" name="GetTextAd_AdCenter" storage="..\testbits\adcenter.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="72007983-8fa1-bb63-a680-ad71645dfa42" name="EditTextAd_AdCenter" storage="..\testbits\adcenter.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="77ff3f66-3fc0-3f27-3187-abce11b0ad76" name="DeleteTextAd_AdCenter" storage="..\testbits\adcenter.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

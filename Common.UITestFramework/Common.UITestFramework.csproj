@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1DA75434-DF86-4448-849D-F7F334E3F094}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common.UITestFramework</RootNamespace>
+    <AssemblyName>Common.UITestFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\TestBits\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\TestBits\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension.Firefox, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension.Silverlight, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mita.Foundation, Version=1.0.60901.0, Culture=neutral, PublicKeyToken=52e28813398b5263, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MitaBinary\Mita.Foundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Mita.Localization, Version=1.0.60901.0, Culture=neutral, PublicKeyToken=52e28813398b5263, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MitaBinary\Mita.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Mita.Logging, Version=1.0.60901.0, Culture=neutral, PublicKeyToken=52e28813398b5263, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MitaBinary\Mita.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Mita.Modeling, Version=1.0.60901.0, Culture=neutral, PublicKeyToken=52e28813398b5263, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MitaBinary\Mita.Modeling.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="MaterialType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchEngineType.cs" />
+    <Compile Include="TestBase.cs" />
+    <Compile Include="UIMaps\AccountManagementCenter.cs">
+      <DependentUpon>AccountManagementCenter.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\AccountManagementCenter.Designer.cs">
+      <DependentUpon>AccountManagementCenter.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\AddUsers.cs">
+      <DependentUpon>AddUsers.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\AddUsers.Designer.cs">
+      <DependentUpon>AddUsers.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\AgreementWindow.cs">
+      <DependentUpon>AgreementWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\AgreementWindow.Designer.cs">
+      <DependentUpon>AgreementWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\DetailedInfoForDownload.cs">
+      <DependentUpon>DetailedInfoForDownload.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\DetailedInfoForDownload.Designer.cs">
+      <DependentUpon>DetailedInfoForDownload.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\DetailedInfoForUpload.cs">
+      <DependentUpon>DetailedInfoForUpload.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\DetailedInfoForUpload.Designer.cs">
+      <DependentUpon>DetailedInfoForUpload.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\DownloadAccountWindow.cs">
+      <DependentUpon>DownloadAccountWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\DownloadAccountWindow.Designer.cs">
+      <DependentUpon>DownloadAccountWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\FacebookLogin.cs">
+      <DependentUpon>FacebookLogin.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\FacebookLogin.Designer.cs">
+      <DependentUpon>FacebookLogin.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\LoginWindow.cs" />
+    <Compile Include="UIMaps\MainWindow.cs">
+      <DependentUpon>MainWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\OptionsWindow.cs">
+      <DependentUpon>OptionsWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\OptionsWindow.Designer.cs">
+      <DependentUpon>OptionsWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\QuestionWindow.cs">
+      <DependentUpon>QuestionWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\QuestionWindow.Designer.cs">
+      <DependentUpon>QuestionWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\UIWaitingWindow.cs" />
+    <Compile Include="UIMaps\UploadChanges.cs">
+      <DependentUpon>UploadChanges.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\UploadChanges.Designer.cs">
+      <DependentUpon>UploadChanges.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\UploadingRestriction.cs">
+      <DependentUpon>UploadingRestriction.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\UploadingRestriction.Designer.cs">
+      <DependentUpon>UploadingRestriction.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\WarningWindow.cs">
+      <DependentUpon>WarningWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\WarningWindow.Designer.cs">
+      <DependentUpon>WarningWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ConfigurationFileUtilities.cs" />
+    <Compile Include="Utilities\CopyFlags.cs" />
+    <Compile Include="Utilities\CSVFileUtilities.cs" />
+    <Compile Include="Utilities\DirectoryUtilities.cs" />
+    <Compile Include="Utilities\FileUtilities.cs" />
+    <Compile Include="Utilities\GenerateUIMap.cs" />
+    <Compile Include="Utilities\GridViewUtilities.cs" />
+    <Compile Include="Utilities\JsonSerializer.cs" />
+    <Compile Include="Utilities\RandomData.cs" />
+    <Compile Include="Utilities\ReflectionUtilities.cs" />
+    <Compile Include="Utilities\RegexGen.cs" />
+    <Compile Include="Utilities\RobocopyUtilities.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="UIMaps\AccountManagementCenter.uitest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UIMaps\AddUsers.uitest" />
+    <None Include="UIMaps\AgreementWindow.uitest" />
+    <None Include="UIMaps\DetailedInfoForDownload.uitest" />
+    <None Include="UIMaps\DetailedInfoForUpload.uitest" />
+    <None Include="UIMaps\DownloadAccountWindow.uitest" />
+    <None Include="UIMaps\FacebookLogin.uitest" />
+    <None Include="UIMaps\MainWindow.uitest" />
+    <None Include="UIMaps\OptionsWindow.uitest" />
+    <None Include="UIMaps\QuestionWindow.uitest" />
+    <None Include="UIMaps\UploadChanges.uitest" />
+    <None Include="UIMaps\UploadingRestriction.uitest" />
+    <None Include="UIMaps\WarningWindow.uitest" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

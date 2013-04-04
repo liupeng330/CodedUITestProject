@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E2652CC-2167-4D93-9068-E40FECCFC694}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Facebook.UITestFramework</RootNamespace>
+    <AssemblyName>Facebook.UITestFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\TestBits\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\TestBits\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdSage.Common">
+      <HintPath>..\..\..\lib\AdSage.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension.Firefox, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension.Silverlight, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mita.Foundation, Version=1.0.60901.0, Culture=neutral, PublicKeyToken=52e28813398b5263, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>MitaBinary\Mita.Foundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Mita.Localization, Version=1.0.60901.0, Culture=neutral, PublicKeyToken=52e28813398b5263, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>MitaBinary\Mita.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Mita.Logging, Version=1.0.60901.0, Culture=neutral, PublicKeyToken=52e28813398b5263, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>MitaBinary\Mita.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Mita.Modeling, Version=1.0.60901.0, Culture=neutral, PublicKeyToken=52e28813398b5263, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>MitaBinary\Mita.Modeling.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountDetails.cs" />
+    <Compile Include="AccountSummary.cs" />
+    <Compile Include="AdCreative.cs" />
+    <Compile Include="AdsPerformance.cs" />
+    <Compile Include="AdStatus.cs" />
+    <Compile Include="AdTargeting.cs" />
+    <Compile Include="AdType.cs" />
+    <Compile Include="Advertisement.cs" />
+    <Compile Include="BidType.cs" />
+    <Compile Include="Campaign.cs" />
+    <Compile Include="Performance.cs" />
+    <Compile Include="SuggestedBid.cs" />
+    <Compile Include="TestHelper.cs" />
+    <Compile Include="UIMaps\Advertisements.cs">
+      <DependentUpon>Advertisements.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\Advertisements.Designer.cs">
+      <DependentUpon>Advertisements.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\ChooseCampaignWindow.cs">
+      <DependentUpon>ChooseCampaignWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\ChooseCampaignWindow.Designer.cs">
+      <DependentUpon>ChooseCampaignWindow.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIMaps\AccountManagementRestriction.cs">
+      <DependentUpon>AccountManagementRestriction.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\AccountManagementRestriction.Designer.cs">
+      <DependentUpon>AccountManagementRestriction.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\AccountSummary.cs">
+      <DependentUpon>AccountSummary.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\AccountSummary.Designer.cs">
+      <DependentUpon>AccountSummary.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\Campaigns.cs">
+      <DependentUpon>Campaigns.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\Campaigns.Designer.cs">
+      <DependentUpon>Campaigns.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\PerformanceData.cs">
+      <DependentUpon>PerformanceData.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\PerformanceData.Designer.cs">
+      <DependentUpon>PerformanceData.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\UIMap1.cs">
+      <DependentUpon>UIMap1.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMaps\UIMap1.Designer.cs">
+      <DependentUpon>UIMap1.uitest</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\AdSage.Concert.Core\AdSage.Concert.Core.csproj">
+      <Project>{1FCEE2BE-ED94-4FD2-A1D0-86A235B8CDDA}</Project>
+      <Name>AdSage.Concert.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\src\AdSage.Concert.Shell\AdSage.Concert.Shell.csproj">
+      <Project>{159573B7-8D03-4CEA-A71C-BB97B1C09DD4}</Project>
+      <Name>AdSage.Concert.Shell</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\src\AdSage.Concert.Static\AdSage.Concert.Static.csproj">
+      <Project>{EE1FC79E-E371-4C40-9E47-57736953723E}</Project>
+      <Name>AdSage.Concert.Static</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\src\Common\AdSage.Concert.Cache\AdSage.Concert.Cache.csproj">
+      <Project>{541552E7-CAD9-4DF6-82D5-6A4D146E1D06}</Project>
+      <Name>AdSage.Concert.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\src\Common\AdSage.Concert.SEMObjects\AdSage.Concert.SEMObjects.csproj">
+      <Project>{43BF21A0-4E8F-4471-BB62-EC6C5FDF1C7A}</Project>
+      <Name>AdSage.Concert.SEMObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\src\Common\AdSage.Shared\AdSage.Shared.csproj">
+      <Project>{DD70FFA9-13D7-4B47-8263-EF434B9456FE}</Project>
+      <Name>AdSage.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\src\Facebook\AdSage.Concert.Facebook.Api\AdSage.Concert.Facebook.Api.csproj">
+      <Project>{D3E1135E-49F6-457D-A89D-7AF472209152}</Project>
+      <Name>AdSage.Concert.Facebook.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\src\Facebook\AdSage.Concert.Facebook.Connector.LocalProvider\AdSage.Concert.Facebook.Connector.LocalProvider.csproj">
+      <Project>{C93DA204-125E-4AA6-95BC-7629F9BBA831}</Project>
+      <Name>AdSage.Concert.Facebook.Connector.LocalProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\src\Facebook\AdSage.Concert.Facebook.FacebookManagementObjects\AdSage.Concert.Facebook.FacebookManagementObjects.csproj">
+      <Project>{90F03F1D-A247-4EDC-B17F-034901D7A06F}</Project>
+      <Name>AdSage.Concert.Facebook.FacebookManagementObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\src\Facebook\AdSage.Concert.Facebook.Share\AdSage.Concert.Facebook.Share.csproj">
+      <Project>{C555227E-4032-4CE8-AB74-71B3FA820B0A}</Project>
+      <Name>AdSage.Concert.Facebook.Share</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.UITestFramework\Common.UITestFramework.csproj">
+      <Project>{1DA75434-DF86-4448-849D-F7F334E3F094}</Project>
+      <Name>Common.UITestFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UIMaps\AccountManagementRestriction.uitest" />
+    <None Include="UIMaps\AccountSummary.uitest" />
+    <None Include="UIMaps\Advertisements.uitest" />
+    <None Include="UIMaps\Campaigns.uitest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UIMaps\ChooseCampaignWindow.uitest" />
+    <None Include="UIMaps\PerformanceData.uitest" />
+    <None Include="UIMaps\UIMap1.uitest" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

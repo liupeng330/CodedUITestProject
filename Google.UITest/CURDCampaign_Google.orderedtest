@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="curdcampaign" storage="e:\afpsourcecode\trunk\src_test\afptest\google.uitest\curdcampaign.orderedtest" id="e9822a9c-371a-4dfe-9a83-6f92e20c8ee9" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="f8b0d44d-8514-41f0-8499-a3a0af666f71" />
+  <TestLinks>
+    <TestLink id="cc265789-462e-511a-cd3a-5054b16305bf" name="AddCampaign_Google" storage="bin\release\google.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="2c9d2e87-9e94-22ea-dac9-66fbfde04361" name="GetCampaign_Google" storage="bin\release\google.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="c1bbb3a0-14a4-40e6-1e51-f022bec7ba22" name="EditCampaign_Google" storage="bin\release\google.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="01b1fa3a-9bb0-2605-e6fd-ab59ee27a561" name="DeleteCampaign_Google" storage="bin\release\google.uitest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>
